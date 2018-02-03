@@ -1,0 +1,6 @@
+.et_contact_bottom_container {
+Width: 100%;
+}
+.et_pb_contact_form_container.et_pb_contact_form_container .et_contact_bottom_container .et_pb_contact_submit.et_pb_button {
+Width: 97%; margin: auto;
+}
