@@ -1,0 +1,6 @@
+/*---Center---*/
+.ds-slider-center .et_pb_slide_description  {
+	padding: 35% 8% !important; /*adjust the padding around the slider text container, this will also help you to control the 
+	height of your slides. You can remove this if you want the default height*/
+	
+}
