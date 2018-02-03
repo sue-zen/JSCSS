@@ -1,0 +1,12 @@
+/*---Right---*/
+.ds-slider-right.et_pb_slider .et_pb_container {
+    float: right !important; /*move the slider text container to the right*/
+}
+.ds-slider-right .et_pb_slide_description  {
+	text-align: right !important; /*align the slider text to the right*/
+	padding: 35% 8% !important; /*adjust the padding around the slider text container, this will also help you to control the 
+	height of your slides. You can remove this if you want the default height*/
+}
+.ds-slider-right.et_pb_slider .et_pb_button {
+    float: right !important; /*move the button to the right*/
+}
