@@ -1,0 +1,12 @@
+/*---Left---*/
+.ds-slider-left.et_pb_slider .et_pb_container {
+    float: left !important; /*move the slider text container to the left*/
+}
+.ds-slider-left .et_pb_slide_description  {
+	text-align: left !important; /*align the slider text to the left*/
+	padding: 35% 8%; /*adjust the padding around the slider text container, this will help you to control the 
+	height of your slides. You can remove this if you want the default height*/
+}
+.ds-slider-left.et_pb_slider .et_pb_button {
+    float: left !important;  /*move the button to the left*/
+}
