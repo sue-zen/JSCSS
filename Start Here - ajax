@@ -1,0 +1,22 @@
+add_action('wp_footer', 'p4p_render_start_here_dialog');
+function p4p_render_start_here_dialog(){
+    ?>
+    <div style="display: none;">
+        <div id="start-here-dialog" class="dialog-box">
+            <h1>Are you going to build the website yourself?</h1>
+            <div class="buttons">
+                <h3><a href="#" class="do-it">I will do it myself</a></h3>
+                <h3><a href="http://lbz.dev/how-to-hire-a-web-designer/" class="link-page">I will hire someone</a></h3>
+                <div class="clear-both"></div>
+            </div>
+        </div>
+        <div id="do-it-myself-dialog" class="dialog-box">
+            <h1>Do you know what skills you need?</h1>
+            <p>Knowing what skills you have and what skills you will need to outsource will increase your chances of success.
+             <div class="buttons">
+                <h3><a href="http://lbz.dev/skills-you-need/" class="link-page">No, can you show me?</a></h3>
+                <h3><a href="http://lbz.dev/how-to-hire-a-web-designer/" class="link-page">I will hire someone</a></h3>
+                <div class="clear-both"></div>
+            </div>
+        </div>
+    </div>
