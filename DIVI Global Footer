@@ -1,0 +1,11 @@
+if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
+
+			<footer id="main-footer">
+			
+			/* Footer Code Goes Here - Replace the module number with your own */
+        <?php echo do_shortcode('[et_pb_section global_module="207988"][/et_pb_section]'); ?>      
+				<?php get_sidebar( 'footer' ); ?>
+
+
+https://quiroz.co/replace-the-default-footer-with-a-divi-builder-footer-saved-in-your-divi-library/
+
