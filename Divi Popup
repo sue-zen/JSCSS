@@ -1,0 +1,50 @@
+add_filter( 'evr_divi_popup-js_data', 'my_divi_popup_options' );
+ 
+function my_divi_popup_options( $config ) {
+    // Der z-index des Overlays und des sichtbaren Popups.
+    $config['zIndex'] = 100000;
+ 
+    // Animationsgeschwindigkeit für den Fade-In Effekt des Popups.
+    $config['animateSpeed'] = 400;
+ 
+    // -- Diese folgenden Optionen brauchst du wahrscheinlich selten --
+ 
+    // Damit kannst du eine andere Klasse anstatt "is-modal" definieren
+    // um das Schliessen per Klick auf den Hintergrund zu deaktivieren.
+    $config['modalIndicatorClass'] = 'is-modal';
+ 
+    // Damit kannst du eine andere Klasse anstatt "on-exit" definieren
+    // um ein Popup vor dem Verlassen der Seite anzuzeigen.
+    $config['exitIndicatorClass'] = 'on-exit';
+ 
+    // Der CSS Selektor, um Popups zu identifizieren. Falls ein anderes
+    // Plugin oder Theme bereits die CSS Klasse "popup" verwendet, kannst
+    // du hier deine eigene Klasse definieren.
+    $config['popupSelector'] = '.popup';
+ 
+    // Responsive Integration. CSS Klasse, die für Popups verwendet wird,
+    // die in voller Breite angezeigt werden sollen.
+    $config['fullWidthClass'] = 'popup_full_width';
+ 
+    // Responsive Integration. CSS Klasse, die für Popups verwendet wird,
+    // die in voller Höhe angezeigt werden sollen.
+    $config['fullHeightClass'] = 'popup_full_height';
+ 
+    // Diese CSS Klasse wird zum body-Tag hinzugefügt, während ein Popup
+    // angezeigt wird.
+    // Die Standard Klasse deaktiviert das Scrollen und fügt einen
+    // Unschärfe-Filter zum Seiteninhalt hinzu.
+    $config['openPopupClass'] = 'evr_popup_open';
+ 
+    // CSS Klasse des Overlays.
+    // Die Standard Klasse zeigt ein schwarz-transparentes Overlay.
+    $config['overlayClass'] = 'evr_fb_popup_modal';
+ 
+    // Du kannst ein Popup auch per data-Attribut öffnen, anstatt per href
+    // eines Links. Das Standard Attribut ist "data-popup" und öffnet das
+    // angegebene Popup beim Klick.
+    // Bsp: <span data-popup="my-popup-id">Popup öffnen</span>
+    $config['idAttrib'] = 'data-popup';
+ 
+    return $config;
+}
