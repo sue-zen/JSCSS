@@ -9,3 +9,7 @@
     float: none !important;
 }
 }
+
+/*** Hide Sidebar ***/
+#sidebar {display:none;}
+
