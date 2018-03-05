@@ -1,0 +1,8 @@
+add_filter('get_post_metadata', 'dc_post_metadata', 10, 4);
+function dc_post_metadata($x, $object_id, $meta_key, $single) {
+    if ($meta_key === '_et_pb_page_layout') {
+        if ('project' === get_post_type($object_id)) {
+            return 'et_full_width_page';
+        }
+    }
+}
