@@ -1,0 +1,8 @@
+<script>
+jQuery('.gq-module-hover').click(function(e){
+ var href=jQuery(this).find('.et_pb_main_blurb_image a').attr('href');
+jQuery('#utuve_video_play_sec').attr('src', href)
+    e.preventDefault();
+    return false;
+});
+</script>
