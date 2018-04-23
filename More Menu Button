@@ -1,0 +1,23 @@
+<script>
+
+	
+	jQuery('#menu-item-163 > a').click(function() {
+  // Handler for .ready() called.
+
+	jQuery('.sub-menu').css("display","inline");
+		return false;
+});
+	
+	
+	jQuery( "#menu-item-163 > a" ).hover(
+  function() {
+    jQuery('.sub-menu').css("display","none");
+	  return false;
+  }, function() {
+   
+  }
+);
+	
+	
+
+</script>
