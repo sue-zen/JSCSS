@@ -6,3 +6,5 @@ function dc_post_metadata($x, $object_id, $meta_key, $single) {
         }
     }
 }
+
+Add this code to the Child Theme functions.php file
