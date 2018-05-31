@@ -1,0 +1,6 @@
+ul#top-menu li.menu-item:not(:last-child) { 
+    padding-right: 80px !important; 
+}
+#et_top_search { 
+    margin-left: 80px !important; 
+}
