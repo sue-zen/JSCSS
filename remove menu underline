@@ -1,0 +1,9 @@
+#main-header {
+    box-shadow: none !important;
+}
+
+/* Add this, too, if you want to remove the
+   shadow underneath the fixed Divi navigation bar */
+#main-header.et-fixed-header {
+    box-shadow: none !important;
+}
