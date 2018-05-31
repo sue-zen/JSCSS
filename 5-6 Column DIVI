@@ -1,0 +1,43 @@
+/*----------5 Columns----------*/
+
+.five-columns .et_pb_module {
+	float: left;
+	width: 20%!important;
+	padding: 20px;
+}
+
+@media only screen and (max-width: 980px) {
+	
+.five-columns .et_pb_module {
+	width: 33%!important; 
+    }
+}
+
+@media only screen and (max-width: 479px) {
+	
+.five-columns .et_pb_module {
+	width: 50%!important;
+	}
+}
+
+/*----------6 Columns----------*/
+
+.six-columns .et_pb_module {
+	float: left;
+	width: 16.6%!important;
+	padding: 20px;
+}
+
+@media only screen and (max-width: 980px) {
+	
+.six-columns .et_pb_module {
+    width: 33%!important;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	
+.six-columns .et_pb_module {
+	width: 50%!important;
+	}
+}
