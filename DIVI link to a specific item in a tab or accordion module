@@ -1,0 +1,14 @@
+Link to a specific item in a Tabs or Accordion module
+You can link to a specific item in the Tabs or Accordion module by setting a custom CSS ID for the module
+then use that item's index in the anchor link. 
+
+Indexes start at 0 for the first item in the list, so the first item is 0, the second item is 1, and so on. 
+
+To link to a specific item in a Tabs or Accordion module:
+
+Open the module and click the Advanced tab.
+In the ID field, set a unique ID name for the module.
+Link to any item in that module by specifying the module’s ID with the item’s index, separated by a vertical slash |.
+For example, if you want to link to the second item in a Tabs module with an id of Gallery, use this link:
+
+https://thy2.webmastery.biz/#Gallery|1
