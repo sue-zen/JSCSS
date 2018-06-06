@@ -1,0 +1,14 @@
+Add to function.php
+
+//Shortcode to show the module
+function showmodule_shortcode($moduleid) {
+extract(shortcode_atts(array('id' =>'*'),$moduleid)); 
+return do_shortcode('[et_pb_section global_module="'.$id.'"][/et_pb_section]');
+}
+add_shortcode('showmodule', 'showmodule_shortcode');
+
+
+Add to any divi module
+[showmodule id="xxx"]
+
+Id can be found in the divi library url for a specific module.
