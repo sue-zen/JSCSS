@@ -1,0 +1,13 @@
+/*---------- [Equalise the Tabs] ----------*/
+.equal-tabs .et_pb_tabs_controls li {
+    width: 50%; /*change width of tabs here depending on the number of tabs you have*/
+    text-align: center;
+}
+@media screen and (max-width: 768px){ /*change device breakpoint here depending on the number of tabs you have*/
+.equal-tabs .et_pb_tabs_controls li {
+    width: 100%; 
+  text-align: center;
+}
+}
+
+add to theme options css or to page css
