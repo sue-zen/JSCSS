@@ -1,0 +1,3 @@
+.et_pb_gallery_0 .et_pb_gallery_item {
+	margin: 0 !important; clear: none !important; width: 33.33% !important;min-width: 200px;
+}
