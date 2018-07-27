@@ -1,0 +1,113 @@
+/* Text overlay on home page images */
+.overlay-bouquets { position: relative; }
+.overlay-bouquets:after {
+ position: absolute;
+ content: '';
+ background: url('https://thy2.webmastery.biz/wp-content/uploads/bouquets-hover2.png');
+ background-size: cover; /* Make overlay fit the window of our original image */
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ opacity: 0; /* Make's the overlay invisible until we hover */
+ transition: .5s ease all; /* How long the transition takes */
+}
+
+.overlay-bouquets:hover:after {
+ opacity: 1; /* Make Image Appear */
+}
+
+/* Text overlay for bouttonnieres-hover */
+.overlay-bouttonnieres { position: relative; }
+.overlay-bouttonnieres:after {
+ position: absolute;
+ content: '';
+ background: url('https://thy2.webmastery.biz/wp-content/uploads/bouttonnieres-hover.png');
+ background-size: cover; /* Make overlay fit the window of our original image */
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ opacity: 0; /* Make's the overlay invisible until we hover */
+ transition: .5s ease all; /* How long the transition takes */
+}
+
+.overlay-bouttonnieres:hover:after {
+ opacity: 1; /* Make Image Appear */
+}
+
+/* Text overlay for centerpieces-hover */
+.overlay-centerpieces { position: relative; }
+.overlay-centerpieces:after {
+ position: absolute;
+ content: '';
+ background: url('https://thy2.webmastery.biz/wp-content/uploads/centerpieces-hover.png');
+ background-size: cover; /* Make overlay fit the window of our original image */
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ opacity: 0; /* Make's the overlay invisible until we hover */
+ transition: .5s ease all; /* How long the transition takes */
+}
+
+.overlay-centerpieces:hover:after {
+ opacity: 1; /* Make Image Appear */
+}
+
+/* Text overlay for rentals-hover */
+.overlay-rentals { position: relative; }
+.overlay-rentals:after {
+ position: absolute;
+ content: '';
+ background: url('https://thy2.webmastery.biz/wp-content/uploads/rentals-hover.png');
+ background-size: cover; /* Make overlay fit the window of our original image */
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ opacity: 0; /* Make's the overlay invisible until we hover */
+ transition: .5s ease all; /* How long the transition takes */
+}
+
+.overlay-rentals:hover:after {
+ opacity: 1; /* Make Image Appear */
+}
+
+/* Text overlay for events-inspiration */
+.overlay-rental-inspirations { position: relative; }
+.overlay-rental-inspirations:after {
+ position: absolute;
+ content: '';
+ background: url('https://thy2.webmastery.biz/wp-content/uploads/rentals-hover4.png');
+ background-size: cover; /* Make overlay fit the window of our original image */
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ opacity: 0; /* Make's the overlay invisible until we hover */
+ transition: .5s ease all; /* How long the transition takes */
+}
+
+.overlay-rental-inspirations:hover:after {
+ opacity: 1; /* Make Image Appear */
+}
+
+/* Text overlay for floral-inspiration */
+.overlay-floral { position: relative; }
+.overlay-floral:after {
+ position: absolute;
+ content: '';
+ background: url('https://thy2.webmastery.biz/wp-content/uploads/floral-hover2.png');
+ background-size: cover; /* Make overlay fit the window of our original image */
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ opacity: 0; /* Make's the overlay invisible until we hover */
+ transition: .5s ease all; /* How long the transition takes */
+}
+
+.overlay-floral:hover:after {
+ opacity: 1; /* Make Image Appear */
+}
